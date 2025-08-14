@@ -1,0 +1,9 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Example: define theme tokens directly in CSS */
+@theme {
+  --font-display: "Satoshi", sans-serif;
+  --breakpoint-lg: 1024px;
+  --color-custom: oklch(0.85 0.1 120);
+}
